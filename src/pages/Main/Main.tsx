@@ -7,12 +7,12 @@ import Loader from '../../ui/Loader/Loader';
 
 const Main = () => {
   const [isFavoriteList, setIsFavoriteList] = useState(false);
-  const { favorites, searchQueryGlobal } = useAppSelector(store => store.beers);
+  const { favorites, searchQueryGlobal, beerList } = useAppSelector(
+    store => store.beers
+  );
 
   const [searchPage, setSearchPage] = useState(1);
   const [favoritePage, setFavoritePage] = useState(1);
-
-  const { beerList } = useAppSelector(state => state.beers);
 
   const { isFetching: isBeersFetching, isError } = useGetBeersQuery({
     searchPage: 1
