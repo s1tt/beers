@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.details {
+  max-width: 700px;
+}
+
+.table {
+  border: 1px solid #8888889c;
+  border-radius: 10px;
+}
+
+.tableTitle {
+  padding: 10px;
+  margin: 0;
+  background-color: #8888889c;
+  border-radius: 10px 10px 0 0;
+}
+
+.tableContent {
+  padding: 10px;
+}
+
+.imgWrapper {
+  flex-shrink: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  max-height: 800px;
+}
+
+.img {
+  height: 100%;
+}
+
+.nonVisible {
+  display: none;
+  visibility: hidden;
+}

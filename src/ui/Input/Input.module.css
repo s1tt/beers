@@ -1,0 +1,16 @@
+.input {
+  margin: 0;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+
+.input:focus {
+  outline: none;
+  background-color: #1a1a1a;
+}
+
+label {
+  width: 100%;
+}

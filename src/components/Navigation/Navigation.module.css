@@ -1,0 +1,25 @@
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navLinkActive {
+  border-bottom: 1px solid #000;
+  cursor: default;
+}
+
+.navLink {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+  color: #000;
+}
+
+.navLinkActive:hover {
+  opacity: 1;
+}

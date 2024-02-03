@@ -1,0 +1,13 @@
+.filter {
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.favFilterActive {
+  background-color: #8888889c;
+  border-color: #646cff;
+}
